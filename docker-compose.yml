@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  mongoDb:
+    image: mongo:latest
+    container_name: "db-juegos-directo"
+    restart: no
+    ports:
+      - '27017:27017'
